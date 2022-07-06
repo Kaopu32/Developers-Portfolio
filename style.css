@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
 .Make-Orange{
     color: orangered;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -36,4 +39,27 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.experience-item{
+    width: 30%;
+    box-shadow: 10px 10px 40px orangered;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 25px;
+    border-radius: 10px;
+}
+#full-stack-web-developer{
+    border-left: 7px solid orange;
+}
+#skills{
+    border-left: 7px solid red;
+}
+footer p{
+    text-align: center;
 }
